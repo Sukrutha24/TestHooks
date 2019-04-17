@@ -6,6 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class AcraController {
+	
 	@GetMapping({"/","/home"})
 	public ModelAndView landingPage() {
 		ModelAndView m=new ModelAndView();

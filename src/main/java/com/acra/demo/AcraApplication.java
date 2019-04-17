@@ -2,12 +2,13 @@ package com.acra.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class AcraApplication {
+public class AcraApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
-		SpringApplication.run(AcraApplication.class, args);
+		SpringApplication.run(AcraApplication.class, args);//NOSONAR
 	}
 
 }
