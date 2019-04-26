@@ -23,6 +23,6 @@ public class AcraApplicationTests {
 	@Test
 	public void testDashBoardPage() {
 		m=acra.dashBoardPage();
-		assertEquals("BizFileDashboardPage.html",m.getViewName());
+		assertEquals("BizFileDashboardPag.html",m.getViewName());
 	}
 }
